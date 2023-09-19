@@ -8,7 +8,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="viewport" content="width=1024">
 
-    <title>OVMM Workshop @ CoRL 2023</title>
+    <title>VLMNM Workshop @ ICRA 2024</title>
 
     <!-- <link rel="icon" type="image/png" href="images/robot_emoji.png"> -->
 
@@ -39,11 +39,11 @@
 
       <div class="row section">
         <div class="text-center">
-          <h1 style="color:#000000">Open Vocabulary Mobile Manipulation</h1>
+          <h1 style="color:#443535">Vision-Language Models for Navigation and Manipulation</h1>
           <br>
-          <h4>Full-day workshop at <a href="https://www.corl2023.org/">CoRL 2023</a></h4>
+          <h4>Full-day workshop at <a href="https://www.corl2023.org/">ICRA 2024</a></h4>
           <h4> </h4>
-          <h4>Nov 6-9 2023, <a href="https://greenwichmeantime.com/time-zone/usa/pacific-time/" target="_blank">Pacific Time (PT)</a>, Atlanta (USA)</h4>
+          <h4>May 13-17 2024, <a href="https://greenwichmeantime.com/time/japan/" target="_blank">Japan Standard Time (JST)</a>, Yokohama (Japan)</h4>
           <hr>
         </div>
       </div>
@@ -53,25 +53,25 @@
       <div class="row section">
         <center><h3>Introduction</h3><hr></center>
 
-        As roboticists, we envision a future where robots are seamlessly integrated into everyday life, aiding humans in daily tasks such as tidying a room 
-        or brewing a cup of tea. Such robots must not only navigate unfamiliar environments and manipulate unseen objects, but also communicate with everyday 
-        users through natural language. In this workshop, we delve into the concept of open-vocabulary mobile manipulation (OVMM), exploring how we can instruct 
-        robots using open-ended natural language and leverage large foundational models to enhance the semantic understanding of these robots. A critical element 
-        of our discussion will also be the recent advancements in integrating navigation and manipulation. Our ultimate goal is to reveal new opportunities for 
-        generalization, driven by open-vocabulary language instructions and physically adept robotic hardware and algorithms.
+        With the rising capabilities of LLMs and VLMs, the past two years have seen a surge in research work using VLMs for navigation and manipulation. 
+        Fusing the capabilities of visual interpretation with natural language processing, these models are poised to redefine how robotic systems interact 
+        with both their environment and human counterparts. The relevance of this topic cannot be overstated; as the frontier of human-robot interaction expands, 
+        so does the necessity for robots to comprehend and operate within complex environments using naturalistic instructions. Our workshop will not only reflect 
+        the state-of-the-art advancements in this domain, by featuring a diverse set of speakers, from senior academics to researchers in early careers, from industry 
+        researchers to companies producing mobile manipulation platforms, from researchers who are enthusiastic about using VLMs for robotics to those who have 
+        reservations about it. We aim for this event to be a catalyst for originality and diversity at ICRA 2024. We believe that, amidst a sea of workshops, ours 
+        will provide unique perspectives that will push the boundaries of what's achievable in robot navigation and manipulation.
         <br><br>
-        In this workshop, our primary focus will be on:
+        In this workshop, we plan to discuss:
         <ul>
-          <li>Task specification with open vocabulary language instructions</li>
-          <li>Representation learning</li>
-          <li>Utilizing Large Language Models (LLMs)</li>
-          <li>Developing open-vocabulary perception algorithms</li>
-          <li>Human-Robot Interaction (HRI)</li>
-          <li>General purpose manipulation</li>
-          <li>Semantic scene understanding</li>
-          <li>Benchmarks and Datasets</li>
-          <li>Mobile manipulation hardwares</li>
+          <li>How can VLMs/LLMs enhance robotics navigation and manipulation?</li>
+          <li>How to extract world knowledge from pre-trained VLMs/LLMs and apply them to navigation and manipulation?</li>
+          <li>How to integrate VLMs/LLMs with robot components, such as perception, control, and planning? How to account for partial observability and uncertainty?</li>
+          <li>Benchmarks and datasets to assess the generalization capabilities of VLMs/LLMs for navigation and manipulation.</li>
+          <li>Capabilities and limitations of VLMs/LLMs for navigation and manipulation (e.g. in task planning, spatial understanding)</li>
+          <li>New interaction modes between robots and humans enabled by VLMs/LLMs.</li>
         </ul>
+
       </div>
 
       <div class="row section">
@@ -80,7 +80,7 @@
           <table>
             <thead>
               <tr>
-                <th class="time">Time (<a href="https://greenwichmeantime.com/time-zone/usa/pacific-time/" target="_blank">PT</a>)</th>
+                <th class="time">Time (<a href="https://greenwichmeantime.com/time/japan/" target="_blank">JST</a>)</th>
                 <th class="event">Event</th>
                 <th class="description">Description</th>
               </tr>
@@ -88,15 +88,26 @@
 
             <tbody>
               <tr class="highlight">
-                <td class="time">9:00 - 9:10</td>
-                <td class="event">Opening Remarks</td>
+                <td class="time">8:30 - 8:50</td>
+                <td class="event">Coffee and Pasteries</td>
                 <td class="description">
-                    <b>by the Organizing Committee</b>
+                    <b></b>
+                </td>
+              </tr>
+              
+              <tr>
+                <td class="time">8:50 - 9:00</td>
+                <td class="event">
+                  Introduction
+                </td>
+                <td class="description">
+                  <b>by the Organizing Committee</b>
                 </td>
               </tr>
 
               <tr>
-                <td class="time">9:15 - 9:40</td>
+                <tr class="highlight">
+                  <td class="time">9:00 - 9:20</td>
                 <td class="event">
                   Talk 1
                 </td>
@@ -106,8 +117,7 @@
               </tr>
 
               <tr>
-                <tr class="highlight">
-                <td class="time">9:45 - 10:10</td>
+                <td class="time">9:20 - 9:40</td>
                 <td class="event">
                   Talk 2
                 </td>
@@ -117,39 +127,39 @@
               </tr>
 
               <tr>
-                <td class="time">10:15 - 10:40</td>
-                <td class="event">
-                  Selected Papers
-                </td>
-                <td class="description">
-                  <b>Lightning Talks</b>
-                </td>
-              </tr>
-
-              <tr>
                 <tr class="highlight">
-                <td class="time">10:45 - 11:00</td>
-                <td class="event">
-                  Coffee Break
-                </td>
-                <td class="description">
-                  <b>15 Mins</b>
-                </td>
-              </tr>
-
-              <tr>
-                <td class="time">11:00 - 11:25</td>
+                <td class="time">9:40 - 10:00</td>
                 <td class="event">
                   Talk 3
                 </td>
                 <td class="description">
-                  <b>Speaker 3</b>
+                  <b>Early-Career Speaker 3</b>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="time">10:00 - 10:30</td>
+                <td class="event">
+                  Panel 1
+                </td>
+                <td class="description">
+                  <b>Speaker 1-3</b>
                 </td>
               </tr>
 
               <tr>
                 <tr class="highlight">
-                <td class="time">11:30 - 11:55</td>
+                <td class="time">10:30 - 11:00</td>
+                <td class="event">
+                  Coffee Break and Poster Session
+                </td>
+                <td class="description">
+                  <b>30 Mins</b>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="time">11:00 - 11:20</td>
                 <td class="event">
                   Talk 4
                 </td>
@@ -159,28 +169,8 @@
               </tr>
 
               <tr>
-                <td class="time">12:00 - 12:30</td>
-                <td class="event">
-                  Selected Papers
-                </td>
-                <td class="description">
-                  <b>Lightning Talks</b>
-                </td>
-              </tr>
-
-              <tr>
                 <tr class="highlight">
-                <td class="time">12:30 - 1:30</td>
-                <td class="event">
-                  Lunch Break
-                </td>
-                <td class="description">
-                  <b>60 Mins</b>
-                </td>
-              </tr>
-
-              <tr>
-                <td class="time">1:30 - 1:55</td>
+                <td class="time">11:20 - 11:40</td>
                 <td class="event">
                   Talk 5
                 </td>
@@ -190,55 +180,117 @@
               </tr>
 
               <tr>
-                <tr class="highlight">
-                <td class="time">2:00 - 2:25</td>
+                <td class="time">11:40 - 12:00</td>
                 <td class="event">
                   Talk 6
                 </td>
                 <td class="description">
-                  <b>Speaker 6</b>
-                </td>
-              </tr>
-
-              <tr>
-                <td class="time">2:30 - 3:30</td>
-                <td class="event">
-                  Poster Session + Coffee Break
-                </td>
-                <td class="description">
-                  <b>60 Mins</b>
+                  <b>Early-Career Speaker 3</b>
                 </td>
               </tr>
 
               <tr>
                 <tr class="highlight">
-                <td class="time">3:30 - 4:30</td>
+                <td class="time">12:30 - 14:00</td>
                 <td class="event">
-                  Panel Discussion
+                  Lunch Break
                 </td>
                 <td class="description">
-                  <b>Panelists</b>
+                  <b>90 Mins</b>
                 </td>
               </tr>
 
               <tr>
-                <td class="time">3:30 - 4:30</td>
+                <td class="time">14:00 - 14:45</td>
                 <td class="event">
-                  Demos
+                  Panel 2 with industry Speakers
                 </td>
                 <td class="description">
-                  <b>Description</b>
+                  <b>Speaker 4-6</b>
+                </td>
+              </tr>
+
+              <tr>
+                <tr class="highlight">
+                <td class="time">14:45 - 15:00</td>
+                <td class="event">
+                  Spotlight Talks
+                </td>
+                <td class="description">
+                  <b>3 Talks of 5 mins each</b>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="time">15:00 - 15:30</td>
+                <td class="event">
+                  Coffee Break and Poster Session
+                </td>
+                <td class="description">
+                  <b>30 Mins</b>
+                </td>
+              </tr>
+
+              <tr>
+                <tr class="highlight">
+                <td class="time">15:30 - 15:50</td>
+                <td class="event">
+                  Talk 7
+                </td>
+                <td class="description">
+                  <b>Speaker 7</b>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="time">15:50 - 16:10</td>
+                <td class="event">
+                  Talk 8
+                </td>
+                <td class="description">
+                  <b>Speaker 8</b>
+                </td>
+              </tr>
+
+              <tr>
+                <tr class="highlight">
+                <td class="time">16:10 - 16:30</td>
+                <td class="event">
+                  Talk 9
+                </td>
+                <td class="description">
+                  <b>Speaker 9</b>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="time">16:30 - 17:00</td>
+                <td class="event">
+                  Panel Discussion 3
+                </td>
+                <td class="description">
+                  <b>Speaker 7-9</b>
+                </td>
+              </tr>
+
+              <tr>
+                <tr class="highlight">
+                <td class="time">17:00 - 17:30</td>
+                <td class="event">
+                  Open Discussion
+                </td>
+                <td class="description">
+                  <b></b>
                 </td>
               </tr>
               
               <tr>
-                <tr class="highlight">ta
-                <td class="time">3:30 - 4:30</td>
+                <td class="time">17:30 - 17:45</td>
                 <td class="event">
-                  Closing Remarks
+                  Awards Ceremony and Closing Remarks
                 </td>
                 <td class="description">
-                  <b>by the Organizing Committee</b>
+                  <b></b>
                 </td>
               </tr>
             </tbody>
@@ -257,55 +309,72 @@
         <table>
           <tbody>
             <tr>
-              <td width="33%" class="organizer">
-                <a href="http://weiyuliu.com/" target="_blank"><img src="photos/WeiyuLiu.jpeg" width="120px" align="bottom" style="border-radius: 50%"></a>
+              <td width="25%" class="organizer">
+                <a href="https://cpaxton.github.io/about/" target="_blank"><img src="photos/ChrisPaxton.jpeg" width="150px" align="bottom" style="border-radius: 50%"></a>
                 <br><br>
-                <a href="http://weiyuliu.com/" target="_blank">Weiyu Liu</a>
+                <a href="https://cpaxton.github.io/about/" target="_blank">Chris Paxton</a>
                 <br>
-                Stanford University
+                FAIR, Meta
               </td>
 
-              <td width="33%" class="organizer">
-                <a href="http://karmeshyadav.com/" target="_blank"><img src="photos/KarmeshYadav.jpeg" width="120px" align="bottom" style="border-radius: 50%"></a>
+              <td width="25%" class="organizer">
+                <a href="https://fxia22.github.io/" target="_blank"><img src="photos/FeiXia.jpeg" width="150px" align="bottom" style="border-radius: 50%"></a>
+                <br><br>
+                <a href="https://fxia22.github.io/" target="_blank">Fei Xia</a>
+                <br>
+                Google Deepmind
+              </td>
+
+              <td width="25%" class="organizer">
+                <a href="http://karmeshyadav.com/" target="_blank"><img src="photos/KarmeshYadav.jpeg" width="150px" align="bottom" style="border-radius: 50%"></a>
                 <br><br>
                 <a href="http://karmeshyadav.com/" target="_blank">Karmesh Yadav</a>
                 <br>
                 Georgia Tech
               </td>
 
-              <td width="33%" class="organizer">
-                <a href="https://mahis.life/" target="_blank"><img src="photos/human.avif" width="120px" align="bottom" style="border-radius: 50%"></a>
+              <td width="25%" class="organizer">
+                <a href="https://mahis.life/" target="_blank"><img src="photos/MahiShafiullah.jpeg" width="150px" align="bottom" style="border-radius: 50%"></a>
                 <br><br>
                 <a href="https://mahis.life/" target="_blank">Nur Muhammad Mahi Shafiullah</a>
                 <br>
-                Univ. of Pennsylvania
+                New York University
               </td>
             </tr>
 
             <tr>
-              <td width="33%" class="organizer">
-                <a href="https://www.oiermees.com/" target="_blank"><img src="photos/human.avif" width="120px" align="bottom" style="border-radius: 50%"></a>
+              <td width="25%" class="organizer">
+                <a href="https://www.microsoft.com/en-us/research/people/nawake/" target="_blank"><img src="photos/NaokiWake.jpeg" width="150px" align="bottom" style="border-radius: 50%"></a>
                 <br><br>
-                <a href="https://www.oiermees.com/" target="_blank">Oier Mees</a>
+                <a href="https://www.microsoft.com/en-us/research/people/nawake/" target="_blank">Naoki Wake</a>
                 <br>
-                Univ. of Toronto / NVIDIA
+                Microsoft Research
               </td>
 
-              <td width="33%" class="organizer">
-                <a href="https://robot-learning.cs.utah.edu/thermans" target="_blank"><img src="photos/human.avif" width="120px" align="bottom" style="border-radius: 50%"></a>
+              <td width="25%" class="organizer">
+                <a href="http://weiyuliu.com/" target="_blank"><img src="photos/WeiyuLiu.jpg" width="150px" align="bottom" style="border-radius: 50%"></a>
                 <br><br>
-                <a href="https://robot-learning.cs.utah.edu/thermans" target="_blank">Tucker Hermans</a>
+                <a href="http://weiyuliu.com/" target="_blank">Weiyu Liu</a>
                 <br>
-                University of Utah / NVIDIA
+                Stanford University
               </td>
 
-              <td width="33%" class="organizer">
-                <a href="https://cpaxton.github.io/about/" target="_blank"><img src="photos/human.avif" width="120px" align="bottom" style="border-radius: 50%"></a>
+              <td width="25%" class="organizer">
+                <a href="https://research.google/people/107814/" target="_blank"><img src="photos/YujinTang.jpeg" width="150px" align="bottom" style="border-radius: 50%"></a>
                 <br><br>
-                <a href="https://cpaxton.github.io/about/" target="_blank">Chris Paxton</a>
+                <a href="https://research.google/people/107814/" target="_blank">Yujin Tang</a>
                 <br>
-                Meta AI
+                Google DeepMind Tokyo
               </td>
+
+              <td width="25%" class="organizer">
+                <a href="https://zt-yang.com/ " target="_blank"><img src="photos/ZhutianYang.jpg" width="150px" align="bottom" style="border-radius: 50%"></a>
+                <br><br>
+                <a href="https://zt-yang.com/ " target="_blank">Zhutian Yang</a>
+                <br>
+                MIT
+              </td>
+
             </tr>
           </tbody>
         </table>
