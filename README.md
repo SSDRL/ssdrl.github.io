@@ -1,1 +1,1 @@
-# Website for the OVMM Workshop at CoRL 2023
+# Website for the Workshop on Vision-Language Model for Navigation and Manipulation at ICRA 2024
