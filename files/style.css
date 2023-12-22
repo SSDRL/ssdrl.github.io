@@ -72,14 +72,14 @@ tr {
 td {
     padding-top:20px;
     padding-bottom:20px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:16px;
+    padding-right:16px;
 }
 th {
     padding-top:20px;
     padding-bottom:20px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:16px;
+    padding-right:16px;
 }
 table{
     width:900px;
