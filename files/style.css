@@ -103,3 +103,6 @@ table .organizer {
     text-align:center;
     min-width:200px;
 }
+.text-justify {
+  text-align: left;
+}
