@@ -106,3 +106,26 @@ table .organizer {
 .text-justify {
   text-align: left;
 }
+
+.faq-container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.faq-question {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
