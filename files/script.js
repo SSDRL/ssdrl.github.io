@@ -8,7 +8,10 @@ function toggleAnswer(id) {
 }
 
 // The deadline is March 11 End of Day AoE, which is 12 hours behind UCT
-var countDownDate = new Date("Mar 12, 2024 11:59:59").getTime();
+// var countDownDate = new Date("Mar 12, 2024 11:59:59").getTime();
+
+// The conference time is March 17 at 9 am JST, which is 3 hours behind UCT
+var countDownDate = new Date("Mar 17, 2024 12:00:00").getTime();
 
 // Run myfunc every second
 var myfunc = setInterval(function() {
