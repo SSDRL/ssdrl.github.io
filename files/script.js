@@ -11,7 +11,7 @@ function toggleAnswer(id) {
 // var countDownDate = new Date("Mar 12, 2024 11:59:59").getTime();
 
 // The conference time is March 17 at 9 am JST, which is 3 hours behind UCT
-var countDownDate = new Date("Mar 17, 2024 12:00:00").getTime();
+var countDownDate = new Date("May 17, 2024 12:00:00").getTime();
 
 // Run myfunc every second
 var myfunc = setInterval(function() {
@@ -38,6 +38,7 @@ if (timeleft < 0) {
     document.getElementById("hours").innerHTML = "" 
     document.getElementById("mins").innerHTML = ""
     document.getElementById("secs").innerHTML = ""
-    document.getElementById("end").innerHTML = "Deadline has passed!";
+    // document.getElementById("end").innerHTML = "Deadline has passed!";
+    document.getElementById("end").innerHTML = "Workshop has started!";
 }
 }, 1000);
