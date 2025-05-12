@@ -1,1 +1,1 @@
-# Website for the Workshop on Vision-Language Model for Navigation and Manipulation at ICRA 2024
+# Website for the Workshop on Synthetic Data Generation for Robot Learning
